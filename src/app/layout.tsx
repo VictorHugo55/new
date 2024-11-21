@@ -1,5 +1,5 @@
+import Cabecalho from "@/components/Cabecalho";
 import Footer from "@/components/Footer";
-import Menu from "@/components/Menu";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Menu />
+        <Cabecalho />
         {children}
         <Footer />
       </body>
